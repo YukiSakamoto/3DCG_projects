@@ -229,7 +229,8 @@ const scene = new THREE.Scene();
 
 const textureLoader = new THREE.TextureLoader();
 //const myTexture = textureLoader.load('./bp.jpg');
-const myTexture = textureLoader.load('./hakodate.jpeg');
+//const myTexture = textureLoader.load('./hakodate.jpeg');
+const myTexture = textureLoader.load('./umeda.jpg');
 
 const material = new THREE.ShaderMaterial({
  vertexShader: vertexShader,
